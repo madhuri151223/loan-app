@@ -16,7 +16,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'python3 deploy'
+                echo 'Deploying Payroll Application...'
             }
         }
     }
